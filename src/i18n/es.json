@@ -1,0 +1,32 @@
+{
+    "HOME": {
+        "TITLE": "Hey!",
+        "SUBTITLE": "Soy Marcelo Busignani",
+        "WORK": "Disponible para trabajar",
+        "DESCRIPTION_TITLE_1": "Estudiante en 2do año de Ingenieria en sistemas",
+        "DESCRIPTION_TITLE_2": "de Buenos Aires, Argentina 🇦🇷. Especializado en desarrollar aplicaciones web únicas.",
+        "CONTACT": "Contáctame",
+        "LINKEDIN": "LinkedIn"
+    },
+        "PROJECTS": "Proyectos",
+        "TITLE_PROJECT_1": "Administrador de Veterinaria - Gestiona datos de tus pacientes",
+        "TITLE_PROJECT_2": "Gimnasio Progreso - Registra tu progreso en el gimnasio",
+        "TITLE_PROJECT_3": "Recetas de comida - Gran variedad de diferentes recetas",
+        "TITLE_DESC_1": "Sitio web de manejo de datos, con autenticación, registro, confirmación, restablecimiento de contraseña. Otras tecnologias usadas: MongoDB, Express.",
+        "TITLE_DESC_2": "Plataforma para gestionar tu rutina diaria, almacenar y observar tu progreso en el gimnasio. Backend creado con C# y SQL Server Managment Studio.",
+        "TITLE_DESC_3": "Sitio web con diferentes tipos de recetas a través de una Fetch API, organizadas por categorías y con funciones para agregar tus platos favoritos y eliminarlos.",
+    "ABOUT": {
+        "ABOUTME_TITLE_1": "Sobre",
+        "ABOUTME_TITLE_2": "Marcelo Busignani",
+        "ABOUTME_DESC": "¡Hola! 👋 Mi nombre es Marcelo Busignani y soy Desarrollador Frontend con 2 años aprendiendo diferentes tecnologías. Pero eso no es todo: también me impulsa mi pasión por el diseño de interfaces de usuario. Mi deseo es crear sitios web y aplicaciones visualmente cautivadores que permitan a empresas e individuos llegar a sus expectativas.",
+        "WEB_DESC_1": "Diseñador Web",
+        "WEB_DESC_2": "Desarrollador Frontend",
+        "CV": "Descargar Curriculum",
+        "SKILLS": "My Skills"
+    },
+
+    "FOOTER": {
+        "RIGHTS": "Todos los derechos reservados.",
+        "CONTACT_FOOTER": "Contacto"
+    }
+}

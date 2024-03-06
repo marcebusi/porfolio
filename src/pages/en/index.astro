@@ -1,0 +1,38 @@
+---
+import Layout from "../../layouts/Layout.astro"
+import Footer from "../../components/Footer.astro"
+import AboutMe from "../../components/AboutMe.astro"
+import CodeIcon from "../../components/icons/Code.astro"
+import Projects from "../../components/Projects.astro"
+import SectionContainer from "../../components/SectionContainer.astro"
+import Hero from "../../components/Hero.astro"
+---
+
+<Layout
+  title="Porfolio de Marcelo Busignani - Frontend Web Developer and Student of Systems engineering"
+  description="Hire Marcelo Busignani to create your web application. Frontend Developer. Specialized in creating unique applications."
+>
+  <main class="px-4">
+    <SectionContainer id="home" class="flex justify-center py-16 md:py-36">
+      <Hero>
+      </slot>
+    </Hero>
+    </SectionContainer>
+    <div class="space-y-24">
+
+    <SectionContainer id="projects">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
+      >
+        <CodeIcon class="size-7" />
+        Projects
+      </h2>
+      <Projects />
+    </SectionContainer>
+    <SectionContainer id="about-me">
+      <AboutMe />
+    </SectionContainer>
+  </div>
+  </main>
+  <Footer />
+</Layout>

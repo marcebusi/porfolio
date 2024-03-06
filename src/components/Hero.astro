@@ -1,0 +1,52 @@
+---
+const personalImageAlt = "Marcelo Busignani"
+import Badge from "../components/Badge.astro"
+import LinkedInIcon from "../components/icons/LinkedIn.astro"
+import MailIcon from "../components/icons/Mail.astro"
+import SocialPill from "../components/SocialPill.astro"
+import { getI18N } from "../i18n/"
+const { currentLocale } = Astro
+const i18n = getI18N({currentLocale})
+---
+
+<div class="max-w-xl">
+  <h1
+    class="text-center flex items-center justify-center text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+  >
+    {i18n.HOME.TITLE}
+    <br>
+    {i18n.HOME.SUBTITLE}
+  </h1>
+    <div class="flex justify-center gap-4 m-4">
+      <img
+        class="rounded-full shadow-lg size-16"
+        src="./projects/fondo-animado.gif"
+        alt={personalImageAlt}
+      />
+      <a
+        href="https://linkedin.com/in/marcelo-busignani"
+        target="_blank"
+        rel="noopener"
+        class="flex items-center transition md:justify-center md:hover:scale-105"
+      >
+        <Badge>{i18n.HOME.WORK}</Badge>
+      </a>
+    </div>
+  <p
+    class="mt-6 text-xl text-gray-800 dark:[&>strong]:indigo-600 [&>strong]:text-indigo-600 [&>strong]:font-semibold dark:text-gray-300"
+  >
+     <strong
+      >{i18n.HOME.DESCRIPTION_TITLE_1}</strong
+    > {i18n.HOME.DESCRIPTION_TITLE_2}
+  </p>
+  <nav class="flex flex-wrap gap-4 mt-8">
+    <SocialPill href="mailto:marcebusignani@gmail.com">
+      <MailIcon class="size-4" />
+      {i18n.HOME.CONTACT}
+    </SocialPill>
+    <SocialPill href="https://linkedin.com/in/marcelo-busignani">
+      <LinkedInIcon class="size-4" />
+      {i18n.HOME.LINKEDIN}
+    </SocialPill>
+  </nav>
+</div>

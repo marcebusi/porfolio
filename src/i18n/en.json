@@ -1,0 +1,33 @@
+{
+    "HOME": {
+        "TITLE": "Hey There!",
+        "SUBTITLE": "I'm Marcelo Busignani",
+        "WORK": "Avaible to work",
+        "DESCRIPTION_TITLE_1": "Student on 2nd year Systems engineering",
+        "DESCRIPTION_TITLE_2": "from Buenos Aires, Argentina 🇦🇷. Specialized in the development of unique web applications.",
+        "CONTACT": "Contact Me",
+        "LINKEDIN": "LinkedIn",
+        "PROJECTS": "Projects"
+    },
+        "TITLE_PROJECT_1": "Veterinary Patient Manager - Manage your patient data",
+        "TITLE_PROJECT_2": "Gym Progress - Record your progress in the gym",
+        "TITLE_PROJECT_3": "Food Recipes - A lot of variety of recipes",
+        "TITLE_DESC_1": "Website in which patients, veterinarians can register, with authentication, registration, confirmation, password reset. Other technologies used: MongoDB, Express.",
+        "TITLE_DESC_2": "Free platform to manage your daily routine, store and observe your progress in the gym. Backend created with C# and SQL Server Managment Studio.",
+        "TITLE_DESC_3": "Website with different types of food recipes through an Fetch API, they are organized by category and have a function to add your favorite dishes and delete them.",
+        
+    "ABOUT": {  
+        "ABOUTME_TITLE_1": "About",
+        "ABOUTME_TITLE_2": "Marcelo Busignani",
+        "ABOUTME_DESC": "Hey there! 👋 My name is Marcelo Busignani and I am a Frontend Developer with 2 years learning different technologies. But that's not all: I'm also driven by my passion for user interface design. My desire is to create visually captivating websites and applications that allow companies and individuals to reach their expectations.",
+        "WEB_DESC_1": "Web Designer",
+        "WEB_DESC_2": "Front End Developer",
+        "CV": "Download Resume",
+        "SKILLS": "My Skills"
+    },
+
+    "FOOTER":{
+        "RIGHTS": "All rights reserved.",
+        "CONTACT_FOOTER": "Contact"
+    }
+}
